@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索 - 高清电影电视剧在线观看 - 影视在线</title>
+    <meta name="description" content="在影视在线搜索高清电影、电视剧、综艺节目、动画动漫等内容，快速进入影片详情与在线播放页面。">
+    <meta name="keywords" content="影视在线,高清电影,电视剧在线观看,免费影视,在线播放,剧情片,爱情片,动作片,综艺节目,视频播放,影视资源,电影网站,高清视频,影片搜索">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="./index.html" class="brand" aria-label="影视在线">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                        <path d="M4 4.8C4 3.8 5 3.2 5.9 3.7l13.2 7.2c.9.5.9 1.8 0 2.3L5.9 20.3C5 20.8 4 20.2 4 19.2V4.8Z"></path>
+                    </svg>
+                </span>
+                <span class="brand-copy">
+                    <strong>影视在线</strong>
+                    <em>高清电影电视剧在线观看平台</em>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                    <a href="./index.html" class="nav-link ">首页</a>
+                    <a href="./categories.html" class="nav-link ">分类</a>
+                    <a href="./ranking.html" class="nav-link ">排行榜</a>
+                    <a href="./search.html" class="nav-link is-active">搜索</a>
+            </nav>
+            <div class="header-actions">
+                <form class="top-search" action="./search.html" method="get" data-site-search>
+                    <label>
+                        <span>搜索</span>
+                        <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+                    </label>
+                </form>
+                <button class="menu-button" type="button" aria-label="打开菜单" data-menu-button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-panel" data-mobile-panel>
+            <form class="mobile-search" action="./search.html" method="get" data-site-search>
+                <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            </form>
+            <nav class="mobile-nav" aria-label="移动导航">
+                    <a href="./index.html" class="mobile-link ">首页</a>
+                    <a href="./categories.html" class="mobile-link ">分类</a>
+                    <a href="./ranking.html" class="mobile-link ">排行榜</a>
+                    <a href="./search.html" class="mobile-link is-active">搜索</a>
+            </nav>
+            <div class="mobile-categories">
+                    <a href="./category-selected.html">精选推荐</a>
+                    <a href="./category-action.html">动作冒险</a>
+                    <a href="./category-drama.html">剧情佳作</a>
+                    <a href="./category-romance.html">爱情剧场</a>
+                    <a href="./category-suspense.html">悬疑惊悚</a>
+                    <a href="./category-comedy.html">喜剧欢乐</a>
+            </div>
+        </div>
+    </header>
+    <main class="page-shell page-top">
+        <section class="page-hero slim-hero search-hero">
+            <span>Search</span>
+            <h1>影片搜索</h1>
+            <p>输入片名、地区、类型、年份或关键词，快速发现高清影视内容。</p>
+            <form class="search-page-form" data-search-page-form>
+                <input type="search" name="q" placeholder="搜索影片..." autocomplete="off" data-search-input>
+                <button type="submit">搜索</button>
+            </form>
+        </section>
+        <section class="content-section">
+            <div class="movie-grid" data-search-results></div>
+            <p class="empty-state" data-search-empty hidden>暂无匹配影片</p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <section class="footer-brand">
+                <div class="footer-logo">
+                    <span class="brand-mark" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img">
+                            <path d="M4 4.8C4 3.8 5 3.2 5.9 3.7l13.2 7.2c.9.5.9 1.8 0 2.3L5.9 20.3C5 20.8 4 20.2 4 19.2V4.8Z"></path>
+                        </svg>
+                    </span>
+                    <strong>影视在线</strong>
+                </div>
+                <p>影视在线是专业的高清影视内容平台，提供海量电影、电视剧、综艺节目在线观看服务，涵盖剧情片、爱情片、动作片、喜剧片等各类精彩影片，高清流畅播放，为您带来优质的观影体验。</p>
+            </section>
+            <section>
+                <h2>热门分类</h2>
+                <ul class="footer-links">
+                    <li><a href="./category-selected.html">精选推荐</a></li>
+                    <li><a href="./category-action.html">动作冒险</a></li>
+                    <li><a href="./category-drama.html">剧情佳作</a></li>
+                    <li><a href="./category-romance.html">爱情剧场</a></li>
+                    <li><a href="./category-suspense.html">悬疑惊悚</a></li>
+                    <li><a href="./category-comedy.html">喜剧欢乐</a></li>
+                    <li><a href="./category-fantasy.html">科幻奇幻</a></li>
+                    <li><a href="./category-animation.html">动画动漫</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>高清片单</h2>
+                <ul class="footer-links">
+                    <li><a href="./ranking.html">影视排行榜</a></li>
+                    <li><a href="./categories.html">全部分类</a></li>
+                    <li><a href="./search.html">影片搜索</a></li>
+                    <li><a href="./category-new.html">最新热映</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer-bottom">© 2026 影视在线 · 高清电影电视剧在线观看平台</div>
+    </footer>
+    <script src="./assets/search-data.js"></script>
+    <script src="./assets/main.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
